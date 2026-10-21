@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- No external packages: System.Text.Json + HttpClient only. -->
+  <ItemGroup>
+    <InternalsVisibleTo Include="AgentKit.Tests" />
+  </ItemGroup>
+</Project>
